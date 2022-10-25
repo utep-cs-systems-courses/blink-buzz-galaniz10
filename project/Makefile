@@ -1,0 +1,18 @@
+all:
+	(cd timerLib && make install)
+	(cd 1* && make)
+	(cd 2* && make)
+	(cd 3* && make)
+	(cd 4* && make)
+	(cd 5* && make)
+	(cd 6* && make)
+	(cd 7* && make)
+clean:
+	(cd timerLib && make clean)
+	(cd 1* && make clean)
+	(cd 2* && make clean)
+	(cd 3* && make clean)
+	(cd 4* && make clean)
+	(cd 5* && make clean)
+	(cd 6* && make clean)
+	(cd 7* && make clean)
