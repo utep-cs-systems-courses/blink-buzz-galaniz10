@@ -9,8 +9,7 @@ void led_state_advance();
 void switch_state_Machine();
 
 
-
-extern int switch_state;
+int switch_state;
 
 
 
